@@ -1,0 +1,19 @@
+.input-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 12rem 1fr;
+  align-items: center;
+  justify-content: space-between;
+  gap: calc(var(--spacing-unit) * 0.5);
+}
+.input-container > div {
+  white-space: nowrap;
+  font-size: calc(var(--font-unit) * 1.2);
+  font-weight: 500;
+}
+.input-container > .input {
+  width: 100%;
+  padding: calc(var(--spacing-unit) * 0.5);
+  outline: none;
+  border: 1px solid var(--secondary-red);
+}

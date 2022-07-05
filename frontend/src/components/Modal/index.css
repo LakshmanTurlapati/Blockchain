@@ -1,0 +1,22 @@
+.modal-container {
+  padding: calc(var(--spacing-unit) * 1);
+}
+.popup-content {
+  border-radius: 0.3rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-title {
+  font-size: calc(var(--font-unit) * 1.5);
+  font-weight: 600;
+}
+
+.modal-body-container {
+  padding: calc(var(--spacing-unit) * 1);
+}

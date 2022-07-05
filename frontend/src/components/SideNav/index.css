@@ -1,0 +1,33 @@
+.side-nav-container {
+  height: 87vh;
+  background-color: var(--white);
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem var(--light-black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.side-nav {
+  padding: calc(var(--spacing-unit) * 1);
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+  font-size: 0.9rem;
+  flex-direction: column;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.side-nav > svg {
+  font-size: 1.5rem;
+  color: var(--primary-red);
+}
+
+.bottom-icon {
+  width: calc(var(--spacing-unit) * 4);
+  padding-bottom: calc(var(--spacing-unit) * 1);
+}

@@ -1,0 +1,7 @@
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 100%;
+  align-items: center;
+}
